@@ -1,0 +1,142 @@
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+@media (min-width: 1280px) { 
+    .header{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+ }
+
+ .header .logo img {
+     width: 120px;
+   }
+
+/* ---------------- */
+
+.menu-btn{
+    display: flex;
+    cursor: pointer;
+}
+  
+  ul {
+    list-style-type: none;
+  }
+  
+
+  
+  li:hover {
+    text-decoration:underline;
+    cursor: pointer;
+  }
+  
+  
+  
+  .section-2 img {
+    max-width: 100%;
+    width: 500px;
+  }
+  
+  .showcase {
+    height: 400px;
+  }
+  
+  .showcase .overlay {
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  @media (min-width: 640px) {
+    .hero {
+      position: relative;
+      height: 500px;
+    }
+  
+    .hero-img {
+      display: none;
+    }
+  
+    .hero .overlay {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    .hero .overlay p.text {
+      width: 300px;
+    }
+  
+    
+  
+
+    .office-showcase {
+      position: relative;
+      height: 500px;
+    } 
+  
+    .office-showcase .showcase-img {
+      display: none;
+    }
+  
+    .office-showcase .office-text {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 500px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .header .menu-btn,
+    .header .cart {
+      display: none;
+    }
+  
+    .header .logo {
+      display: flex;
+    }
+  
+    .header .logo ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .header .logo ul li {
+      margin: 0 10px;
+      font-size: 14px;
+    }
+  
+    .header .sign-in ul {
+      display: flex;
+    }
+  
+    .header .sign-in ul li {
+      margin: 0 10px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .hero .overlay p.text {
+      width: 500px;
+    }
+  
+    .office-showcase .office-text {
+      width: 800px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header .logo ul,
+    .header .sign-in {
+      display: none;
+    }
+  }
+  
+

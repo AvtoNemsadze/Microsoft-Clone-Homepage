@@ -1,0 +1,23 @@
+.footer{
+    margin-top:130px;
+}
+
+
+.mylinks{
+    font-size: 12px;
+    list-style-type: none;
+    gap:22px;
+}
+
+
+.mylinks:hover{
+    font-size: 12px;
+    text-decoration:underline;
+}
+
+@media (max-width: 768px) { 
+    .footer{
+        margin-top:-100px;
+    }
+
+}

@@ -1,0 +1,53 @@
+p.myparagraph{
+    color:red;
+    margin-top:100px;
+    display:grid;
+}
+
+
+.btn-icon{
+    color:rgb(43, 88, 156);
+    display:grid;
+    justify-content: flex-start;
+}
+
+
+/* for social icons */
+
+@media (max-width: 768px) { 
+
+    .follow{
+        margin-top:-110px;
+    }
+    .socialIcons{
+        margin-top:-350px;
+    }
+    .follow-text{
+        margin-top:-350px;
+    }
+}
+
+@media (max-width: 819px) { 
+
+    .follow{
+        margin-top:-110px;
+    }
+    .socialIcons{
+        margin-top:-350px;
+    }
+    .follow-text{
+        margin-top:-350px;
+    }
+}
+
+
+
+.follow{
+    margin-top:-40px;
+    position: absolute;
+    margin-left:-10px;
+}
+
+.socialIcons{
+    cursor: pointer;
+}
